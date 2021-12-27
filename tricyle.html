@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+<title>Amin Touati</title>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&display=swap" rel="stylesheet">
+<link href="imgs/profil.jpg" rel="icon">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+@font-face {
+font-family: "CustomFont";
+src: url(Inconsolata.ttf);
+}
+
+
+
+body {
+    font-family: 'JetBrains Mono', monospace;
+    background-color: #ffffff;
+}
+
+.text{
+    height: 10%;
+    top: 0;
+    left: 0;    
+    background-color: rgba(255, 255, 255, 0);
+    font-family: 'Inconsolata', monospace;
+}
+.text p {
+    padding: 24px 6px 24px 32px;
+    font-size: 150%;
+    color: #000000;
+}
+
+.main{
+    background-color: rgb(255, 255, 255);
+    margin-left: 15%;
+}
+
+.sidenav {
+    height: 100%;
+    width: 15% ;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: bold;
+    padding: 2% 0% 0% 0.5%;
+    display:inline-block;
+    position: fixed;
+}
+
+.sidenav a {
+    padding: 0% 0% 2% 15%;
+    text-decoration: none;
+    font-size: 85%;
+    color: #000000;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #9b9b9b;
+    
+}
+
+.center {
+    text-align: center;
+}
+
+.main{
+    margin-left: 0%;
+}
+
+.disapear{
+    width:95%; 
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 800px) {
+  .sidenav, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+
+  .sidenav{
+    height: 10%;
+    width: 100% ;
+    position: fixed;
+  }
+
+  .sidenav a {
+    padding: 0% 0% 0% 0%;
+    text-decoration: none;
+    font-size: 85%;
+    color: #000000;
+    display: inline;
+    width: 100%;
+}
+
+.center {
+  text-align: left;
+}
+
+  .disapear{
+        display: none;
+    }
+
+}
+
+    .main{
+        margin-top: 10%;
+        height:80%;
+        width: 100%;
+    }
+
+  * {
+  box-sizing: border-box;
+}
+
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 20%;
+}
+
+.column img {
+  margin-top: 4%;
+  vertical-align: middle;
+  width: 100%;
+  flex-basis: 75%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+    
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="sidenav">
+    <a href="Illustration.html"><img src="imgs/Logo2.jpg" alt="CXPVDYSQ"  class="disapear"></a>
+    <a href="Illustrations.html">Illustrations</a>
+    <a href="Animations.html">Animations</a>
+    <a href="Photographie.html">Photographies</a>
+    <a href="Sculptures.html">Sculptures</a>
+    <a href="Zine.html">Zines</a>
+    <a href="About.html" >About</a>     
+</div>
+
+<div class="main">
+    <div class="center">
+        <img src="imgs/tricycle/color.gif"  style="width: 60%;">
+        <img src="imgs/tricycle/original.gif"  style="width: 60%;">
+        <img src="imgs/tricycle/hol.jpg"  style="width: 60%;">
+        <img src="imgs/tricycle/bo.JPG"  style="width: 60%;">
+        <img src="imgs/tricycle/bb.JPG"  style="width: 60%;">
+        <img src="imgs/tricycle/ba.JPG"  style="width: 60%;">
+    </div>
+    
+    <div class="row">
+        <div class="column">
+            <img src="imgs/tricycle/A_0000.png">
+            <img src="imgs/tricycle/A_0005.png">
+            <img src="imgs/tricycle/A_0010.png">
+            <img src="imgs/tricycle/B_0003.png">
+            <img src="imgs/tricycle/B_0008.png">
+        </div>
+        <div class="column">
+            <img src="imgs/tricycle/A_0001.png">
+            <img src="imgs/tricycle/A_0006.png">
+            <img src="imgs/tricycle/A_0011.png">
+            <img src="imgs/tricycle/B_0004.png">
+            <img src="imgs/tricycle/B_0009.png">
+        </div>
+        <div class="column">
+            <img src="imgs/tricycle/A_0002.png">
+            <img src="imgs/tricycle/A_0007.png">
+            <img src="imgs/tricycle/B_0000.png">
+            <img src="imgs/tricycle/B_0005.png">
+            <img src="imgs/tricycle/B_0010.png">
+        </div>
+        <div class="column">
+            <img src="imgs/tricycle/A_0003.png">
+            <img src="imgs/tricycle/A_0008.png">
+            <img src="imgs/tricycle/B_0001.png">
+            <img src="imgs/tricycle/B_0006.png">
+        </div>
+        <div class="column">
+            <img src="imgs/tricycle/A_0004.png">
+            <img src="imgs/tricycle/A_0009.png">
+            <img src="imgs/tricycle/B_0002.png">
+            <img src="imgs/tricycle/B_0007.png">
+        </div>
+    </div>
+</div>
+
+
+
+</body>
+</html> 
